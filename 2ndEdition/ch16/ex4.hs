@@ -2,7 +2,7 @@
 [] ++ ys = ys
 (x:xs) ++ ys = x : (xs ++ ys)
 
--- Propotion 1
+-- Proposition 1
 xs ++ [] = xs
 
 -- Base
@@ -22,7 +22,7 @@ x:xs ++ []
  = x : xs
 
 
--- Propotion 2
+-- Proposition 2
 xs ++ (ys ++ zs) = (xs ++ ys) ++ zs
 
 -- Base
