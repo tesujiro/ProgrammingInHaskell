@@ -35,7 +35,7 @@ fmap (g . h) Nothing
 fmap (g . h) (Just x)
  = Just ((g . h) x)
  -- Definitino of (.)
- = Just ((\x -> g (h x)) x)
+ -- = Just ((\x -> g (h x)) x)
  = Just (g (h x))
  -- fmap g (Just x) = Just (g x)   
  = fmap g (Just (h x))
